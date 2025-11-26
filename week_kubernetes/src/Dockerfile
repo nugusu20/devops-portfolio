@@ -1,11 +1,15 @@
+# 1. משתמשים בתמונה מוכנה של פייתון (בסיס)
 FROM python:3.10-slim
 
+# 2. יוצרים תיקייה בתוך הקונטיינר
 WORKDIR /app
 
-COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+# 3. מעתיקים את הקובץ hello.py לתוך הקונטיינר
+COPY hello.py .
 
-COPY app.py .
+# 4. מתקינים את Flask
+RUN pip install flask
 
-CMD ["python", "app.py"]
+# 5. מגדירים מה יקרה כשהקונטיינר ירוץ
+CMD ["python", "hello.py"]
 

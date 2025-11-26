@@ -1,0 +1,64 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hello
+  template:
+    metadata:
+      labels:
+        app: hello
+    spec:
+      containers:
+        - name: hello-container
+          image: hello-app:v11
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 5000
+
+          # MOUNT THE VOLUME INSIDE THE CONTAINER
+          volumeMounts:
+            - name: hello-storage
+              mountPath: /app/data
+
+          # ENV VARIABLES
+          env:
+            - name: WELCOME_MESSAGE
+              value: "Welcome to Kubernetes 🔥"
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: app-secret
+                  key: DB_PASSWORD
+            - name: APP_MODE
+              valueFrom:
+                configMapKeyRef:
+                  name: hello-config
+                  key: APP_MODE
+
+          # READINESS PROBE
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 5000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+
+          # LIVENESS PROBE
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 5000
+            initialDelaySeconds: 15
+            periodSeconds: 10
+            failureThreshold: 3
+
+      # VOLUMES (OUTSIDE THE CONTAINER)
+      volumes:
+        - name: hello-storage
+          persistentVolumeClaim:
+            claimName: hello-pvc
+
