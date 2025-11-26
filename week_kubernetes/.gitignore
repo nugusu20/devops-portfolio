@@ -14,3 +14,7 @@ __pycache__/
 *.env
 *.DS_Store
 
+*.pyc
+__pycache__/
+.DS_Store
+.env
