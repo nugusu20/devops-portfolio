@@ -1,0 +1,4 @@
+aws_region    = "eu-central-1"
+instance_type = "t2.micro"              # נשאיר פשוט כרגע
+instance_name = "devops-prod-server"    # רק השם שונה – זה החלק לבחירתנו
+
