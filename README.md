@@ -48,11 +48,11 @@ I am looking for a **Junior DevOps / Cloud / Infrastructure** role where I can c
 
 I come from an operations and infrastructure background, where reliability, clear procedures, and fast troubleshooting matter.
 
-My experience includes NOC operations, internal technical support, project management, classified security environments, and military service in Maglan. These environments shaped the way I approach technical work: stay calm, understand the system, validate every step, document clearly, and think about failure scenarios before they happen.
+My experience includes NOC operations, internal technical support, project management, classified security environments, and military service in Maglan. These environments shaped how I work: stay calm, understand the system, validate each step, document clearly, and think about failure scenarios early.
 
 Today, I am focused on DevOps and cloud infrastructure. I build hands-on projects around Linux, Docker, CI/CD, Kubernetes, AWS, automation, and troubleshooting.
 
-This portfolio is designed to show not only the tools I practice, but also the way I think through infrastructure problems.
+This portfolio is designed to show not only the tools I use, but also how I approach infrastructure problems.
 
 ---
 
