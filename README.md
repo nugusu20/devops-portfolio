@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  Building hands-on DevOps projects focused on infrastructure automation, deployment workflows, and troubleshooting.
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/nugusu-akalo/">
     <img src="https://img.shields.io/badge/LinkedIn-Nugusu%20Akalo-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
@@ -22,17 +26,43 @@
 
 ---
 
+## Currently Looking For
+
+I am looking for a **Junior DevOps / Cloud / Infrastructure** role where I can contribute to Linux-based operations, CI/CD workflows, containerized environments, infrastructure automation, and troubleshooting.
+
+---
+
+## Recruiter Snapshot
+
+| Area | Summary |
+|---|---|
+| **Target Role** | Junior DevOps / Cloud / Infrastructure |
+| **Background** | NOC, infrastructure operations, help desk, project management |
+| **Core Strengths** | Troubleshooting, operational thinking, documentation, validation |
+| **Main Tools** | Linux, Docker, GitHub Actions, Kubernetes, AWS, Bash |
+| **Portfolio Focus** | Practical DevOps projects with clear README, evidence, and deployment logic |
+
+---
+
 ## About Me
 
-I am a Junior DevOps Engineer with a background in NOC, infrastructure operations, and technical troubleshooting.
+I come from an operations and infrastructure background, where reliability, clear procedures, and fast troubleshooting matter.
 
-Before focusing on DevOps, I worked in operational environments where reliability, clear procedures, fast diagnosis, and calm execution were critical. My background includes military service in Maglan, classified security environments, project management, internal help desk work, and NOC operations in a government infrastructure environment.
+My experience includes NOC operations, internal technical support, project management, classified security environments, and military service in Maglan. These environments shaped the way I approach technical work: stay calm, understand the system, validate every step, document clearly, and think about failure scenarios before they happen.
 
-This path shaped the way I approach engineering work: understand the system, validate every step, document clearly, and think about what can fail before it fails.
+Today, I am focused on DevOps and cloud infrastructure. I build hands-on projects around Linux, Docker, CI/CD, Kubernetes, AWS, automation, and troubleshooting.
 
-Today, I am focused on building practical DevOps projects around Linux, Docker, CI/CD, Kubernetes, AWS, automation, and infrastructure troubleshooting.
+This portfolio is designed to show not only the tools I practice, but also the way I think through infrastructure problems.
 
-I am looking for a Junior DevOps / Cloud / Infrastructure role where I can contribute, keep learning, and grow in production-oriented engineering environments.
+---
+
+## What I Bring
+
+- **Operational mindset** from NOC and infrastructure environments
+- **Hands-on DevOps practice** through real projects and documented workflows
+- **Troubleshooting approach** focused on logs, validation, recovery, and root cause thinking
+- **Discipline and ownership** from field, security, military, and technical environments
+- **Clear documentation** so projects can be reviewed, reproduced, and explained
 
 ---
 
@@ -40,32 +70,33 @@ I am looking for a Junior DevOps / Cloud / Infrastructure role where I can contr
 
 ### SDS Inject — Offline Kubernetes Installer
 
-A hands-on infrastructure automation project that simulates a real-world offline Kubernetes deployment scenario.
+A hands-on infrastructure automation project focused on building an offline Kubernetes installation flow.
 
-The project focuses on preparing a Kubernetes environment without relying on live internet access, including control-plane setup, worker join flow, installer validation, CI checks, and recovery documentation.
+The project simulates a real-world deployment constraint: preparing and deploying Kubernetes components without relying on live internet access.
 
 | Area | Details |
 |---|---|
+| **Problem** | Deploying Kubernetes in an offline or restricted environment |
+| **What I Built** | Installer logic, control-plane setup, worker join flow, dry-run validation, CI checks |
 | **Technologies** | Bash, kubeadm, containerd, Kubernetes, GitHub Actions |
-| **What I Built** | Offline installer logic, dry-run validation, CI checks, recovery and troubleshooting evidence |
-| **DevOps Value** | Infrastructure automation, deployment flow design, validation, troubleshooting, and operational thinking |
-
-🔗 [View the SDS Inject Project →](https://github.com/nugusu20/sds-inject-project)
+| **DevOps Value** | Automation, deployment flow design, validation, troubleshooting, recovery evidence |
+| **Repository** | [View SDS Inject Project →](https://github.com/nugusu20/sds-inject-project) |
 
 ---
 
 ## Technical Stack
 
-| Area | Tools |
+| Category | Tools / Topics |
 |---|---|
-| **OS & Shell** | Linux, Ubuntu, WSL, Bash scripting |
+| **Operating Systems** | Linux, Ubuntu, WSL |
 | **Containers** | Docker, Docker Compose |
-| **Orchestration** | Kubernetes, kubeadm, Minikube, kubectl |
 | **CI/CD** | GitHub Actions |
 | **Cloud** | AWS basics, EC2, Security Groups, CloudShell |
-| **IaC** | Terraform basics, Ansible basics |
+| **Orchestration** | Kubernetes, kubeadm, Minikube, kubectl |
+| **Infrastructure as Code** | Terraform basics, Ansible basics |
+| **Scripting** | Bash, Python |
 | **Networking** | TCP/IP, DNS, DHCP, VLAN fundamentals |
-| **Monitoring** | NOC monitoring mindset, logs, troubleshooting, Wireshark |
+| **Monitoring & Troubleshooting** | NOC monitoring mindset, logs, Wireshark, validation, recovery |
 | **Version Control** | Git, GitHub |
 
 ---
@@ -74,38 +105,44 @@ The project focuses on preparing a Kubernetes environment without relying on liv
 
 | Period | Role |
 |---|---|
-| 2024–2025 | NOC Technician — Government / classified infrastructure environment |
-| 2023–2024 | Internal Help Desk — NESS Technologies |
-| 2021–2023 | Project Manager — SOB Communications |
-| 2016–2019 | Classified Facility Security Officer — Security / defense environment |
-| 2012–2015 | Combat Soldier — Maglan |
+| **2024–2025** | NOC Technician — Government / classified infrastructure environment |
+| **2023–2024** | Internal Help Desk — NESS Technologies |
+| **2021–2023** | Project Manager — SOB Communications |
+| **2016–2019** | Classified Facility Security Officer — Security / defense environment |
+| **2012–2015** | Combat Soldier — Maglan |
 
 ---
 
 ## Education & Certifications
 
-- 🎓 **B.A. Business Administration, Information Systems** — Peres Academic Center
-- 📜 **DevOps Certificate Program** — Linux · Bash · CI/CD · Docker · Kubernetes · AWS · Terraform · Ansible
-- 📜 **Software QA Testing Certificate** — HackerU
+- **B.A. Business Administration, Information Systems** — Peres Academic Center
+- **DevOps Certificate Program** — Linux, Bash, CI/CD, Docker, Kubernetes, AWS, Terraform, Ansible
+- **Software QA Testing Certificate** — HackerU
 
 ---
 
-## Learning Journey
+## Foundations Archive
+
+### DevOps Learning Journey
 
 This archive documents my structured DevOps learning path, including Linux, Git, Docker, Docker Compose, AWS, Terraform, and Kubernetes fundamentals.
 
-It is included as supporting material, while the featured projects above represent the main portfolio work.
+It is included as supporting material. The featured project above represents the main portfolio work.
 
-🔗 [View Learning Journey →](https://github.com/nugusu20/devops-portfolio/tree/backup-learning-journey)
+[View Learning Journey Archive →](https://github.com/nugusu20/devops-portfolio/tree/backup-learning-journey)
 
 ---
 
 ## Languages
 
-🇮🇱 Hebrew — Native &nbsp;|&nbsp; 🇬🇧 English — Professional &nbsp;|&nbsp; 🇪🇹 Amharic — Native
+| Language | Level |
+|---|---|
+| Hebrew | Native |
+| English | Professional |
+| Amharic | Native |
 
 ---
 
 <p align="center">
-  <i>Active Security Clearance · Available for Junior DevOps / Cloud / Infrastructure roles</i>
+  <b>Available for Junior DevOps / Cloud / Infrastructure roles</b>
 </p>
