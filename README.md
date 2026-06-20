@@ -59,7 +59,7 @@ This portfolio is designed to show not only the tools I use, but also how I appr
 ## What I Bring
 
 - **Operational mindset** from NOC and infrastructure environments
-- **Hands-on DevOps practice** through real projects and documented workflows
+- **Hands-on DevOps project work** through real projects and documented workflows
 - **Troubleshooting approach** focused on logs, validation, recovery, and root cause thinking
 - **Discipline and ownership** from field, security, military, and technical environments
 - **Clear documentation** so projects can be reviewed, reproduced, and explained
@@ -109,7 +109,7 @@ The project simulates a real-world deployment constraint: preparing and deployin
 | **2023–2024** | Internal Help Desk — NESS Technologies |
 | **2021–2023** | Project Manager — SOB Communications |
 | **2016–2019** | Classified Facility Security Officer — Security / defense environment |
-| **2012–2015** | Combat Soldier — Maglan |
+| **2012–2015** | Military Service — Maglan |
 
 ---
 
