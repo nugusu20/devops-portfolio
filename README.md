@@ -106,7 +106,7 @@ The project simulates a real-world deployment constraint: preparing and deployin
 | Period | Role |
 |---|---|
 | **2024** | NOC Technician — Government / classified infrastructure environment |
-| **2023–2024** | Internal Help Desk — NESS Technologies |
+| **2023–2024** | student position Help Desk — NESS Technologies |
 | **2021–2023** | Project Manager — SOB Communications |
 | **2016–2019** | Classified Facility Security Officer — Security / defense environment |
 | **2012–2015** | Military Service — Maglan |
