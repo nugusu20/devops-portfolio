@@ -68,7 +68,7 @@ This portfolio is designed to show not only the tools I use, but also how I appr
 
 ## Featured Project
 
-### SDS Inject — Offline Kubernetes Installer
+###  Inject — Offline Kubernetes Installer
 
 A hands-on infrastructure automation project focused on building an offline Kubernetes installation flow.
 
